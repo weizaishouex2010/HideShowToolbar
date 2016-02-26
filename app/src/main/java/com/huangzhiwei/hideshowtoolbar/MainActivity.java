@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
                 break;
             case R.id.Two:intent.setClass(MainActivity.this,TwoActivity.class);
                 break;
-            case R.id.Three:intent.setClass(MainActivity.this,OneActivity.class);
+            case R.id.Three:intent.setClass(MainActivity.this,ThirdActivity.class);
                 break;
         }
         startActivity(intent);
